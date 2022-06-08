@@ -1,0 +1,113 @@
+/* ===============================*===============================*=============================== */
+                                  /* CSS general */
+/* ===============================*===============================*=============================== */
+
+body {
+        font-size: 25px;
+        font-family: sans-serif;
+}
+
+.structure-box {
+        margin: 2rem auto;
+        width: 50%;
+}
+
+.card-calculadora {
+        border: 1px solid green;
+}
+
+/* =================================================* */
+          /* CSS Card-Calculadora Header */
+/* =================================================* */
+
+.card-calculadora > header {
+        text-align: center;
+        padding: 30px;
+        background-color:#212529;
+        color: #fff;
+        font-weight: bold;
+        border-radius: 10px 10px 0px 0px;
+}
+
+/* ===============================* */
+          /* CSS Inputs */
+/* ===============================* */
+
+.number-reciber {
+        margin: 50px;
+        display: flex;
+        justify-content: space-around;
+}
+
+.number-reciber > input {
+        width: 35%;
+        padding: 15px;
+        font-size: 25px;
+}
+
+/* =================================================* */
+          /* CSS Card-Calculadora Body */
+/* =================================================* */
+
+.card-body {
+        margin: 50px;
+        display: flex;
+        justify-content: space-around;
+}
+
+/* ===============================* */
+        /* CSS Botones Body */
+/* ===============================* */
+
+.card-body button {
+        padding: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border: none;
+        border-radius: 5px;
+}
+
+.btn-sum {
+        background-color: #0084ff;
+}
+
+.btn-sum:hover {
+        background-color: #000875;
+        color: #fff;
+}
+
+.btn-sus {
+        background-color: #ff0000;
+}
+
+.btn-sus:hover {
+        background-color: #5e0000;
+        color: #fff;
+}
+
+.btn-mult {
+        background-color: #cab600;
+}
+
+.btn-mult:hover {
+        background-color: #6e6300;
+        color: #fff;
+}
+
+.btn-div {
+        background-color: #00aa00;
+}
+
+.btn-div:hover {
+        background-color: #006400;
+        color: #fff;
+}
+
+/* ===============================* */
+       /* CSS Boton-Resultado */
+/* ===============================* */
+
+
+/* ===============================* */
+       /* CSS Resultado */
+/* ===============================* */
