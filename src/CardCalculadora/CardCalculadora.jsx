@@ -39,7 +39,7 @@ const Calculo = ({ operationValues, setOperationValues }) => {
             <button type='submit' className='btn-mult' onClick={() => handleSubmit('mult')}>* Multiplicar</button>
             <button type='submit' className='btn-div' onClick={() => handleSubmit('div')}>\ Dividir</button>
         </div>
-        <div className='card-body row'>
+        <div className='container'>
             {operationValues.operationType !== null ? <Resultate operationValues={operationValues}/> : null}
         </div>
     </div>

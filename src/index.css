@@ -103,11 +103,32 @@ body {
         color: #fff;
 }
 
-/* ===============================* */
-       /* CSS Boton-Resultado */
-/* ===============================* */
 
 
 /* ===============================* */
-       /* CSS Resultado */
+       /* CSS Resultate */
 /* ===============================* */
+
+.resultate-box {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+}
+
+.boxResult {
+        text-align: center;
+        padding: 20px;
+        width: 60%;
+        border: 1px solid #212529;
+}
+
+.textResult {
+        text-align: center;
+        margin: 50px;
+        width: 50%;
+}
+
+.result {
+        font-style: italic;
+}
